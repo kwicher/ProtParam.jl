@@ -1,3 +1,19 @@
+"AA compostion"
+function composition(protein::AminoAcidSequence)
+
+comp=Dict(
+AA_A=>0, AA_C=>0, AA_D=>0, AA_E=>0, AA_F=>0,
+AA_G=>0, AA_H=>0, AA_I=>0, AA_K=>0, AA_L=>0,
+AA_M=>0, AA_N=>0, AA_P=>0, AA_Q=>0, AA_R=>0,
+AA_S=>0, AA_T=>0, AA_V=>0, AA_W=>0, AA_Y=>0
+)
+
+for aa in protein
+    comp[aa]+=1
+end
+
+end
+
 "Total number of negatively charged residues (Asp + Glu)"
 function negativecount(protein::AminoAcidSequence)
     comp = composition(protein)
