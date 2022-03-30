@@ -1,9 +1,10 @@
 # ProtParam
+A clone of the original zmactep's ProtParam.jl made to work with newest version of BioSequencesjl
 
 ## Installation
 
 ```
-Pkg.clone("https://github.com/zmactep/ProtParam.jl.git")
+Pkg.clone("https://github.com/kwicher/ProtParam.jl.git")
 ```
 
 ## Usage
