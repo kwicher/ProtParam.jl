@@ -1,7 +1,7 @@
 module ProtParam
 
 import Statistics:   mean
-import BioSequences: LongSequence, composition,
+import BioSequences: LongSequence,
                      AminoAcidAlphabet, AminoAcid,
                      AA_A, AA_C, AA_D, AA_E, AA_F,
                      AA_G, AA_H, AA_I, AA_K, AA_L,
