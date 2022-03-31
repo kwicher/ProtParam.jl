@@ -11,7 +11,7 @@ AA_S=>0, AA_T=>0, AA_V=>0, AA_W=>0, AA_Y=>0
 for aa in protein
     comp[aa]+=1
 end
-
+return comp
 end
 
 "Total number of negatively charged residues (Asp + Glu)"
